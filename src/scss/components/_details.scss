@@ -1,0 +1,104 @@
+.details {
+  padding: 60px 0;
+
+  max-width: 428px;
+  margin: 0 auto;
+  background: #101010;
+
+  background-image: url(/src/img/details/ellipse-1x.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.details-title-container {
+  margin-bottom: 45px;
+}
+
+.details-title {
+  color: #fff;
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%; /* 43.2px */
+  letter-spacing: -2.52px;
+  text-transform: uppercase;
+}
+
+.details-subtitle {
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 90%; /* 21.6px */
+  letter-spacing: -0.96px;
+  text-transform: uppercase;
+
+  background: linear-gradient(
+    92deg,
+    #dfb039 8.51%,
+    #ffda78 54.63%,
+    #dfb039 97.36%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 30px;
+
+  .list-item {
+    position: relative;
+
+    color: #fff;
+    text-align: center;
+    font-family: "Futura PT";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%; /* 16px */
+    letter-spacing: -0.32px;
+
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #ffd05a;
+    background: rgba(255, 255, 255, 0.07);
+    box-shadow: 0px 0px 15px 0px rgba(255, 208, 90, 0.6);
+    max-width: 345px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.details-image {
+  position: absolute;
+  left: 50%;
+  top: -15px;
+
+  transform: translate(-50%);
+}
+
+.details-btn {
+  display: block;
+  color: #101010;
+  text-align: center;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.32px;
+  text-transform: uppercase;
+
+  padding: 20px;
+  border-radius: 7px;
+  background: linear-gradient(90deg, #eaa800 0%, #ffeb80 50%, #eaa800 100%);
+  max-width: 345px;
+  margin: 0 auto;
+}

@@ -33,8 +33,9 @@ img {
 }
 
 .container {
-  padding: 0 calc(15px + (98 - 15) * ((100vw - 375px) / (1920 - 375)));
+  padding: 0 15px;
   margin: 0 auto;
+  max-width: 428px;
 }
 
 button {
