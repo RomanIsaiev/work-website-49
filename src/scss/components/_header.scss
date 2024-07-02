@@ -136,6 +136,11 @@
   grid-column-gap: 5px;
 
   margin-bottom: 15px;
+
+  max-width: 345px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
 }
 
 .advantages-item {
@@ -158,17 +163,26 @@
   letter-spacing: -0.44px;
 
   padding: 10px;
-  border-radius: 10px;
-  background: #fff0c9;
-  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  border: 1px solid #6e9af3;
+  background: #fff;
+  backdrop-filter: blur(5.2083330154418945px);
 
   height: 47px;
+}
+
+.advantages-item:nth-child(1) {
+  max-width: 170px;
+}
+
+.advantages-item:nth-child(2) {
+  max-width: 170px;
 }
 
 .advan-image {
   position: absolute;
   left: 50%;
-  top: -20%;
+  top: -25%;
   width: 26px;
   height: 26px;
 
@@ -190,6 +204,9 @@
   line-height: 100%; /* 22px */
   letter-spacing: -0.44px;
   text-transform: uppercase;
+
+  max-width: 345px;
+  margin: 0 auto;
 
   padding: 18px;
   height: 44px;
